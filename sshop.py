@@ -6,7 +6,7 @@ import asyncio
 import random
 
 # ================= [설정] =================
-TOKEN = "MTU2ODU1NzI0MjMzNTIzMjEwMA.GKRh1w.J12GtdZjbUKRWceeEAHJl0KHMth_SHXwj6BiPY"
+TOKEN = os.environ.get("DISCORD_TOKEN")
 GUILD_ID = 1568578268502818877
 
 # 역할 ID
